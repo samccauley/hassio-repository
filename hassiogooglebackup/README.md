@@ -68,4 +68,4 @@ The `doBackup` service will respond with JSON reminding you of the configuration
 ```
 Unexpected errors will return an HTTP Status Code of some value other than the normal 200 Success Code.
 
-[logo]: logo.png
+[logo]: https://github.com/samccauley/hassio-repository/raw/master/hassiogooglebackup/logo.png

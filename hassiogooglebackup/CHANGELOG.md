@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2019-02-27
+### Fixed
+- Changed to use Python base build in attempt to avoid segmentation faults being experienced by users on 64 bit Hassos.
+
 ## [1.5.1] - 2019-02-19
 ### Fixed
 - Changed MQTT topic from retain=True to retain=False. If you happened to install and use version 1.5.0 of the Google Backup add-on, you will have a retained backup result event stored in MQTT. You can remove this by using Home Assistant's mqtt.publish service to send the following message. This will clear out the previously retained message.

@@ -1,0 +1,6 @@
+channel: stable
+addons:
+  googlebackup:
+    repository: samccauley/addon-hassiogooglebackup
+    target: googlebackup
+    image: samccauley/{arch}-googlebackup
